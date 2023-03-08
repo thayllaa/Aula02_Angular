@@ -9,12 +9,12 @@ import { MeComponent } from './me/me.component';
   standalone: true,
   imports: [CommonModule, MeComponent],
   template: `
-    <h1>Hello from {{name}}!</h1>
+    <h1> {{name}} </h1>
     <app-me></app-me>
   `,
 })
 export class App {
-  name = 'TE II';
+  name = 'Me & Timer App';
 }
 
 bootstrapApplication(App);
