@@ -11,7 +11,7 @@ export class MeComponent implements OnInit {
   myName: string;
 
   constructor() {
-    this.myName = 'Thaylla';
+    this.myName = 'Thaylla, Leonardo e Sabrina';
   }
 
   ngOnInit() {
