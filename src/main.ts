@@ -11,7 +11,7 @@ import { TimerComponent } from './timer/timer.component';
   imports: [CommonModule, MeComponent, TimerComponent],
   template: `
     <h1> {{name}} </h1>
-    <app-me></app-me>,
+    <app-me></app-me>
     <app-timer></app-timer>
   `,
 })
