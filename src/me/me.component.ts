@@ -4,17 +4,14 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-me',
   standalone: true,
   templateUrl: './me.component.html',
-  styleUrls: ['./me.component.css']
+  styleUrls: ['./me.component.css'],
 })
 export class MeComponent implements OnInit {
-
   myName: string;
 
   constructor() {
-    this.myName = 'Thaylla, Leonardo e Sabrina';
+    this.myName = 'Thaylla & Leonardo';
   }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
