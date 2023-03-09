@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NumberComponent implements OnInit {
 
-  constructor() { }
+  getNumbers() {
+    return [21, 65, 2, 0, 78, 11, 77, 122, 907, 1]
+  }
 
   ngOnInit() {
   }
