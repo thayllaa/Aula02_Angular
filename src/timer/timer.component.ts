@@ -12,7 +12,7 @@ export class TimerComponent implements OnInit {
   constructor() {
     const timer = setInterval(() => {
       this.counter = this.counter + 1;
-    }, 1000);
+    }, 100);
   }
 
   getSec() {
