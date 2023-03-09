@@ -10,12 +10,12 @@ export class TimerComponent implements OnInit {
   counter: number = 0;
 
   constructor() {
-    timer = setInterval(() => {
+    const timer = setInterval(() => {
       this.counter = this.counter + 1;
     }, 1000);
   }
 
-  getSecs() {
+  getSec() {
     return Math.trunc(this.counter % 60);
   }
 
