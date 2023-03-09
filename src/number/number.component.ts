@@ -14,5 +14,4 @@ export class NumberComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
