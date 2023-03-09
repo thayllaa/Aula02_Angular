@@ -18,7 +18,7 @@ import { NumberComponent } from './number/number.component';
   `,
 })
 export class App {
-  name = 'Me & Timer App';
+  name = 'Me, Timer & Random Number App';
 }
 
 bootstrapApplication(App);
